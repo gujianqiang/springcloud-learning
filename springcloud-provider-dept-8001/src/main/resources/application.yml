@@ -14,3 +14,8 @@ spring:
     url: jdbc:mysql://192.168.155.60:3306/cloud01?serverTimezone=Asia/Shanghai&characterEncoding=utf8
     username: root
     password: hello886
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
