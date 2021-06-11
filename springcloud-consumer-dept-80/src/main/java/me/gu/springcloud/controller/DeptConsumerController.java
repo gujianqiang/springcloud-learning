@@ -33,4 +33,5 @@ public class DeptConsumerController {
         return restTemplate.getForObject(REST_URL_PREFIX + "/dept/list", List.class);
     }
 
+
 }
